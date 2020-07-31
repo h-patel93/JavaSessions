@@ -13,7 +13,7 @@ public class EnhancedForLoop {
 
         for (int i:a
         ) {
-            System.out.println("values of array using enhanced for loop "+i);
+            System.out.println("values of array using enhanced for loop with random class "+i);
 
         }
 

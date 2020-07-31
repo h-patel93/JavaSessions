@@ -10,6 +10,12 @@ public class EnhancedForLoop {
             a[j]=r.nextInt(50);
 
         }
+        try{System.out.println(a[9]);
+        }catch(Exception e)
+        {
+            System.out.println("maximum index is 7");
+        }
+
 
         for (int i:a
         ) {

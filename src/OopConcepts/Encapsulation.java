@@ -2,7 +2,10 @@ package OopConcepts;
 
 public class Encapsulation {
 
-
+public void show()
+    {
+        System.out.println("Harsh");
+    }
 
 
     public static void main(String args[])

@@ -1,6 +1,6 @@
 package OopConcepts;
 
-public class SingleLevelInheritance {
+public class SingleMultiLevelInheritance {
 
     public static void main(String args[])
     {

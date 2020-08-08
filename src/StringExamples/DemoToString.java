@@ -16,8 +16,9 @@ class Demo1
 
     public Demo1(String name, int rollNo)
     {
-        this.name=name;
         this.rollNo=rollNo;
+        this.name=name;
+
     }
 
     @Override

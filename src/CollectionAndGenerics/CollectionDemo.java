@@ -68,11 +68,20 @@ public class CollectionDemo {
         }
 //cannot add elements in particular index position
 
-*/ c.forEach(System.out::println);
-        Collections.sort(c);
+*/
+
+
+        Collections.sort(c,(integer, t1) ->  {
+            return integer%10>t1%10?1:-1;
+        });
+
+
+c.forEach(System.out::println);
+
         for(Object i : c)
         {
             System.out.println(i);
         }
     }
 }
+
